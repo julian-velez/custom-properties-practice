@@ -1,0 +1,38 @@
+:root{
+   /* --julian:linear-gradient(steelblue, hotpink); */
+   /* --bordes:1px solid #000; */
+   --color-primario:royalblue;
+   --paddin-botones:20px 0;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+}
+
+.title{
+    border: var(--bordes);
+    color: var(--color-primario);
+}
+
+.paragraph {
+    color: royalblue;
+    border: var(--bordes);
+}
+
+.cta {
+    background-color: var(--color-primario);
+    background-image:var(--julian);
+    display: block;
+    padding: var(--paddin-botones);
+    border-radius: 30px;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+}
